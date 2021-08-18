@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(20, 33, 61, 0.3);
+    position: relative;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+.headText {
+    margin-left: 2rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translate(-20px, -50%);
+    transition: opacity 250ms ease;
+    font-weight: 600;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("soldier.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.first-heading {
+    font-size: 3em;
+}
+
+.first-subtext {
+    margin: 1em;
+    font-weight: 400;
+}
+
+.text {
+    color: #fca211;
+}
+
+#donate {
+    font-size: 16px;
+    padding: 16px;
+    margin: 12px;
+    margin-top: 15px;
+    background-color: rgba(252, 162, 17, 0.7);
+    border: none;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: 300ms ease;
+}
+
+#donate:hover {
+    transform: translate3d(0, -5px, 0);
+    box-shadow: 0 2rem 5rem 0 rgba(252, 162, 17, 0.5);
+    transition: 300ms ease;
+}
+
+#donate:focus {
+    outline: none;
+}
+
+
